@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+  background-image: linear-gradient(180deg, #2c0841, #000, #000);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.character-body{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: 90vh;
+  border-radius: 400px 400px 0 0;
+  background-image: linear-gradient(180deg, #012b01, #000, #000)
+}
+
+.bandana{
+  position: absolute;
+  background-image: linear-gradient(180deg, #750917, #000);
+  border-radius: 5px;
+  height: 200px;
+  width: 810px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.eyes{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 100;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.eye{
+  display: inline-block;
+  position: relative;
+  width: 240px;
+  height: 120px;
+  margin: 40px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  box-shadow: inset 0 0 25px #000;
+  overflow: hidden;
+}
+
+.ball{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-image: radial-gradient(#000, #42280b, #000);
+}
