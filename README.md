@@ -4,7 +4,7 @@
 
   ![eye exercise cover](https://neal-easterling.github.io/img/covers/eye-movement-cover.png)
 
-  An animation with css and javascript to have the eyes track the mouse movements of the user.  All shapes and lighting effects are created with css only.
+  An animation created with css and javascript which tracks the movement of the cursor with focus of the eyes.  All shapes and lighting effects are created with css only.
 
 
   ## How to Run
