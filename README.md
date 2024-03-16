@@ -19,7 +19,7 @@
 
   - add slight movement to body as eyes move
   - add textures to elements
-  - add more depth to objects with more granular highlight and shaows
+  - add more depth to objects with more granular highlight and shadows
 
 
   ## License
